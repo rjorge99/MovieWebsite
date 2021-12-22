@@ -19,6 +19,16 @@ body {
     position: fixed;
     top: 0;
     width: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    align-items: center;
+}
+
+.left-menu-icon {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .navbar-container {

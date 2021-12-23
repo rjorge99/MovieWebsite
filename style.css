@@ -19,6 +19,7 @@ body {
     position: fixed;
     top: 0;
     width: 50px;
+    padding: 60px 0;
     display: flex;
     flex-direction: column;
     padding-top: 226px 0;
@@ -99,6 +100,7 @@ body {
     right: 0;
     border-radius: 50%;
     cursor: pointer;
+    transition: all 1s ease;
 }
 
 .menu-item {
@@ -239,4 +241,40 @@ body {
     color: lightgray;
     opacity: 0.5;
     cursor: pointer;
+}
+
+.container.active {
+    background-color: #fff;
+}
+
+.movie-list-title.active {
+    color: #000;
+}
+
+.navbar-container.active {
+    background-color: #fff;
+    color: #000;
+}
+
+.sidebar.active {
+    background-color: #fff;
+}
+
+.left-menu-icon.active {
+    color: #000;
+}
+
+.toggle.active {
+    background-color: #000;
+}
+
+.toggle-ball.active {
+    background-color: #fff;
+    transform: translateX(-20px);
+}
+
+@media screen and (max-width: 940px) {
+    .menu-container {
+        display: none;
+    }
 }

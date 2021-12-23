@@ -21,7 +21,8 @@ body {
     width: 50px;
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
+    padding-top: 226px 0;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -160,6 +161,8 @@ body {
     display: flex;
     height: 300px;
     align-items: center;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
 }
 
 .movie-list-item {
@@ -184,6 +187,7 @@ body {
     height: 200px;
     transition: all 1s ease-in-out;
     /* object-fit: cover; TODO: FIX */
+    border-radius: 20px;
 }
 
 .movie-list-item-title {
